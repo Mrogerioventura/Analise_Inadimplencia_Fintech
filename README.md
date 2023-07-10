@@ -10,7 +10,7 @@ Trata-se de um trabalho de análise de dados, utilizando o Excel da Microsoft co
 
 Uma Fintech de Crédito iniciou sua operação de concessão de empréstimo pessoal e acompanhou a performance de pagamento de 1.000 clientes após 1 ano. Com base nessa amostra, solicitou uma Análise de Dados para verificar quais os fatores de risco dos clientes, de forma a conseguir aprovar mais contratos com a menor inadimplência possível.
 
-## 3 – Metadados Variáveis e Descrição: 
+## 3 – Metadados: 
 
 Inadimplencia - 1 se cliente ficou inadimplente em algum momento após o empréstimo ou 0 caso contrário;
 
