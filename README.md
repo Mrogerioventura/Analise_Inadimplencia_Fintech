@@ -58,7 +58,11 @@ Encontra-se na aba Bivariada da Planilha Base_Inadimplencia V5.xlsx.
 
 No arquivo Base, foi adicionada uma coluna combinando os valores das features Saldo_Invest + Saldo_CC, podendo-se assim, obter maiores detalhes da influência dessas duas variáveis, agora em conjunto, no risco que elas podem gerar para o aumento da inadimplência.
 
-Ao observar-se a TABELA apresentada na aba **Análise_Bi2** da Planilha Base_Inadimplencia V5.xlsx, podemos ver as diferentes categorias da variável "Saldo_Invest + Saldo_CC" e as proporções de resposta correspondentes para cada categoria. Além disso, são fornecidos os percentuais de resposta (inadimplência) para cada categoria, bem como as proporções esperadas de resposta para cada uma, considerando a proporção geral de resposta.
+Ao observar-se abaixo, a TABELA apresentada na aba **Análise_Bi2**, da Planilha Base_Inadimplencia V5.xlsx, podemos ver as diferentes categorias da variável "Saldo_Invest + Saldo_CC" e as proporções de resposta correspondentes para cada categoria. Além disso, são fornecidos os percentuais de resposta (inadimplência) para cada categoria, bem como as proporções esperadas de resposta para cada uma.
+
+![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/69277208-f467-487c-a171-9d6800106b5e)
+
+
 
 Aplicando-se o cálculo do IV, obtemos um valor de 0,8048. Esse valor indica uma influência significativa da variável "Saldo_Invest + Saldo_CC" na inadimplência dos clientes. 
 
