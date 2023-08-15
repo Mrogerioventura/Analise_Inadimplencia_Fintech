@@ -49,7 +49,12 @@ Essa abordagem é eficaz para destacar as variáveis mais relevantes e auxiliar 
 Nesta seção, serão apresentados os principais resultados obtidos a partir da análise dos dados.
 
 ### 5.1 – Gráficos desenvolvidos durante a análise exploratória univariada. 
-Encontra-se na aba Univariada da Planilha Base_Inadimplencia V5.xlsx.
+![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/df772783-e800-4465-b41e-b47409e78e41)
+![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/f7341d46-389e-48ef-95f4-a7c3bc290b68)
+![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/616b1af2-443b-4ed1-a8ce-f33c8bfd5e83)
+
+
+Os dados acima encontram-se na aba Univariada da Planilha Base_Inadimplencia V5.xlsx.
 
 ### 5.2 - Tabela com as variáveis ordenadas pelo Valor de Informação (IV), destacando aquelas com maior poder preditivo em relação à inadimplência. 
 Encontra-se na aba Bivariada da Planilha Base_Inadimplencia V5.xlsx.
@@ -62,8 +67,6 @@ Ao observar-se abaixo, a TABELA apresentada na aba **Análise_Bi2**, da Planilha
 
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/69277208-f467-487c-a171-9d6800106b5e)
 
-
-
 Aplicando-se o cálculo do IV, obtemos um valor de 0,8048. Esse valor indica uma influência significativa da variável "Saldo_Invest + Saldo_CC" na inadimplência dos clientes. 
 
 É importante ressaltar que o IV não apenas quantifica a importância da variável, mas também indica a direção da relação. No caso em análise, observa-se que as categorias com maiores valores de IV (como "Pouco-Pouco" e "Pouco-Sem conta") estão associadas a uma maior proporção de inadimplência, enquanto categorias com valores menores de IV (como "Alto-Alto" e "Moderado-Alto") estão associadas a uma menor proporção de inadimplência.
@@ -72,8 +75,8 @@ Com base nesses resultados, conclui-se que a variável "Saldo_Invest + Saldo_CC"
 
 ## 6 - Recomendações e Plano de Ação sugerido. 
 
-Com base nos resultados da análise, foram apresentadas recomendações específicas para a empresa com o objetivo de aumentar o número de contratos sem aumentar a inadimplência, conforme o Plano de Ação, conforme aba Plano de Ação da Planilha Base_Inadimplencia V5.xlsx.
-
+Com base nos resultados da análise, foram apresentadas recomendações específicas para a empresa com o objetivo de aumentar o número de contratos sem aumentar a inadimplência, conforme o Plano de Ação abaixo, também localizado na aba Plano de Ação da Planilha Base_Inadimplencia V5.xlsx.
+![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/c5031ce9-0edb-4671-9073-0ce397d8d512)
 
 ## 7 - Limitações e recomendações para estudos futuros. 
 Sabemos como é importante reconhecer que o trabalho não termina com a análise de dados, e é primordial identificar oportunidades para melhorias futuras.
