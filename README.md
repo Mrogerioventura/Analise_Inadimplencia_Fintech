@@ -1,95 +1,95 @@
-# Análise do Risco de Inadimplência.
+# Default Risk Analysis.
 
-Objetivo: Este trabalho tem como objetivo aumentar o número de contratos de uma Fintech, com diminuição do Risco de Inadimplência.
+Objective: This work aims to increase the number of contracts of a Fintech, with a decrease in the Risk of Default.
 
-## 1 – Introdução 
+## 1. Introduction
 
-Trata-se de um trabalho de análise de dados, utilizando o Excel da Microsoft como ferramenta, buscando-se, através de aplicação de métodos estatísticos, responder a uma necessidade de uma empresa Fintech.
+It is a data analysis work, using Microsoft Excel as a tool, seeking, through the application of statistical methods, to respond to a need of a Fintech company.
 
-## 2 – Contextualização 
+## 2 – Contextualization
 
-Uma Fintech de Crédito iniciou sua operação de concessão de empréstimo pessoal e acompanhou a performance de pagamento de 1.000 clientes após 1 ano. Com base nessa amostra, solicitou uma Análise de Dados para verificar quais os fatores de risco dos clientes, de forma a conseguir aprovar mais contratos com a menor inadimplência possível.
+A Credit Fintech started its personal loan operation and monitored the payment performance of 1,000 customers after 1 year. Based on this sample, it requested a Data Analysis to verify the risk factors of customers, in order to be able to approve more contracts with the lowest possible default.
 
-## 3 – Metadados: 
+## 3 – Metadata:
 
-Inadimplencia - 1 se cliente ficou inadimplente em algum momento após o empréstimo ou 0 caso contrário;
+Default - 1 if the customer defaulted at some point after the loan or 0 otherwise;
 
-Idade - Idade do cliente:
+Age - Customer age:
 
-Sexo - H: Homem e M: Mulher;
+Gender - M: Man and M: Woman;
 
-Escolaridade - Medio, Graduação e Pós Graduação; 
+Schooling - High School, Undergraduate and Postgraduate;
 
-Tipo_Moradia - Se mora de favor, paga aluguel ou tem casa própria;
+Type_Housing - If you live on a favor, pay rent or have your own home;
 
-Saldo_Investimento - Tomador possui alguma conta investimento em outro banco e qual sua faixa de saldo; 
+Balance_Investment - Borrower has an investment account in another bank and what is its balance range;
 
-Saldo_Conta_Corrente - Se tomador possui alguma conta corrente em outro banco e qual sua faixa de saldo; 
+Balance_Conta_Corrente - If the borrower has a current account at another bank and what is its balance range;
 
-Valor_Emprestimo - valor do empréstimo pessoal solicitado; 
+Valor_Loan - personal loan amount requested;
 
-Duracao_Emprestimo - Duração em meses do empréstimo pessoal solicitado.
+Duracao_Emprestimo - Duration in months of the requested personal loan.
 
 
-## 4 – Metodologia 
-A metodologia adotada consistiu em uma abordagem inicial baseada na teoria frequentista, seguida por uma análise de Information Value (IV) para uma análise bivariada mais aprofundada. Abaixo a descrição dessa metodologia:
+## 4 – Methodology
+The adopted methodology consisted of an initial approach based on the frequentist theory, followed by an Information Value (IV) analysis for a deeper bivariate analysis. Below is a description of this methodology:
 
-### 4.1 - Análise univariada usando a teoria frequentista.
-A primeira etapa foi conduzir uma análise univariada, examinando cada variável independentemente. Utilizou-se a abordagem da teoria frequentista para analisar as proporções e frequências das categorias em cada variável. Foram calculados os percentuais de ocorrência de cada categoria e as proporções de resposta (inadimplência) em relação a cada categoria. Essa análise permitiu ter uma visão geral das características individuais de cada variável e sua relação com a variável resposta (inadimplência).
+### 4.1 - Univariate analysis using frequentist theory.
+The first step was to conduct a univariate analysis, examining each variable independently. The frequentist theory approach was used to analyze the proportions and frequencies of the categories in each variable. The percentages of occurrence of each category and the proportions of response (delinquency) in relation to each category were calculated. This analysis provided an overview of the individual characteristics of each variable and its relationship with the response variable (delinquency).
 
-### 4.2 - Análise bivariada usando o Information Value (IV).
-Após a análise univariada, foi realizada uma análise bivariada usando o conceito de Information Value (IV). 
-O IV é uma medida estatística que avalia a importância de cada variável independente em relação à variável resposta (inadimplência). 
-O cálculo do IV envolve a comparação das proporções de resposta (inadimplência) para cada categoria da variável independente, em relação à proporção geral de resposta. Com base no cálculo do IV, foi possível determinar o grau de influência de cada variável independente na inadimplência, classificando-as em termos de sua importância para a predição do risco de inadimplência. 
-Essa metodologia permitiu uma abordagem sistemática para a análise dos dados, começando com uma análise univariada para entender as características individuais de cada variável e, em seguida, realizando uma análise bivariada usando o IV para identificar as variáveis que mais contribuíam para a predição da inadimplência. 
-Essa abordagem é eficaz para destacar as variáveis mais relevantes e auxiliar na tomada de decisões estratégicas para reduzir a inadimplência e aumentar o número de contratos de forma mais precisa.
+### 4.2 - Bivariate analysis using Information Value (IV).
+After the univariate analysis, a bivariate analysis was performed using the concept of Information Value (IV).
+IV is a statistical measure that evaluates the importance of each independent variable in relation to the response variable (delinquency).
+Calculating the IV involves comparing the proportions of response (delinquency) for each category of the independent variable, in relation to the general proportion of response. Based on the IV calculation, it was possible to determine the degree of influence of each independent variable on default, classifying them in terms of their importance for predicting default risk.
+This methodology allowed for a systematic approach to data analysis, starting with a univariate analysis to understand the individual characteristics of each variable and then performing a bivariate analysis using IV to identify the variables that most contributed to the prediction of default.
+This approach is effective in highlighting the most relevant variables and assisting in making strategic decisions to reduce defaults and increase the number of contracts more accurately.
 
-## 5 - Análise dos resultados. 
+## 5 - Analysis of the results.
 
-Nesta seção, serão apresentados os principais resultados obtidos a partir da análise dos dados.
+In this section, the main results obtained from the data analysis will be presented.
 
-### 5.1 – Gráficos desenvolvidos durante a análise exploratória univariada. 
+### 5.1 – Graphs developed during the univariate exploratory analysis.
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/df772783-e800-4465-b41e-b47409e78e41)
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/f7341d46-389e-48ef-95f4-a7c3bc290b68)
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/616b1af2-443b-4ed1-a8ce-f33c8bfd5e83)
 
 
-Os dados acima encontram-se na aba Univariada da Planilha Base_Inadimplencia V5.xlsx.
+The data above can be found on the Univariate tab of the Spreadsheet Base_Delinquency V5.xlsx.
 
-### 5.2 - Tabela com as variáveis ordenadas pelo Valor de Informação (IV), destacando aquelas com maior poder preditivo em relação à inadimplência. 
-Encontra-se na aba Bivariada da Planilha Base_Inadimplencia V5.xlsx.
+### 5.2 - Table with variables ordered by Information Value (IV), highlighting those with greater predictive power in relation to default.
+It is found in the Bivariate tab of the Spreadsheet Base_Delinquency V5.xlsx.
 
-### 5.3 - Aprofundando a análise com a utilização de Feature Engineering.
+### 5.3 - Deepening the analysis using Feature Engineering.
 
-No arquivo Base, foi adicionada uma coluna combinando os valores das features Saldo_Invest + Saldo_CC, podendo-se assim, obter maiores detalhes da influência dessas duas variáveis, agora em conjunto, no risco que elas podem gerar para o aumento da inadimplência.
+In the Base file, a column was added combining the values of the features Saldo_Invest + Saldo_CC, making it possible to obtain more details of the influence of these two variables, now together, on the risk that they can generate for the increase in default.
 
-Ao observar-se abaixo, a TABELA apresentada na aba **Análise_Bi2**, da Planilha Base_Inadimplencia V5.xlsx, podemos ver as diferentes categorias da variável "Saldo_Invest + Saldo_CC" e as proporções de resposta correspondentes para cada categoria. Além disso, são fornecidos os percentuais de resposta (inadimplência) para cada categoria, bem como as proporções esperadas de resposta para cada uma.
+By observing the TABLE shown below in the **Análise_Bi2** tab, of the Base_Delinquency Worksheet V5.xlsx, we can see the different categories of the variable "Baldo_Invest + Saldo_CC" and the corresponding response proportions for each category. In addition, the response percentages (delinquency) for each category are provided, as well as the expected proportions of response for each one.
 
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/69277208-f467-487c-a171-9d6800106b5e)
 
-Aplicando-se o cálculo do IV, obtemos um valor de 0,8048. Esse valor indica uma influência significativa da variável "Saldo_Invest + Saldo_CC" na inadimplência dos clientes. 
+Applying the IV calculation, we obtain a value of 0.8048. This value indicates a significant influence of the variable "Saldo_Invest + Saldo_CC" on customer default.
 
-É importante ressaltar que o IV não apenas quantifica a importância da variável, mas também indica a direção da relação. No caso em análise, observa-se que as categorias com maiores valores de IV (como "Pouco-Pouco" e "Pouco-Sem conta") estão associadas a uma maior proporção de inadimplência, enquanto categorias com valores menores de IV (como "Alto-Alto" e "Moderado-Alto") estão associadas a uma menor proporção de inadimplência.
+It is important to note that the IV not only quantifies the importance of the variable, but also indicates the direction of the relationship. In the case under analysis, it is observed that the categories with higher IV values (such as "Pouco-Pouco" and "Pouco-Sem conta") are associated with a higher proportion of defaults, while categories with lower IV values (such as " High-High" and "Moderate-High") are associated with a lower proportion of default.
 
-Com base nesses resultados, conclui-se que a variável "Saldo_Invest + Saldo_CC" desempenha um papel significativo na predição da inadimplência dos clientes. Portanto, ao desenvolver estratégias para aprovar mais contratos com a menor inadimplência possível, é importante considerar e avaliar cuidadosamente essa variável, levando em conta as características e os riscos associados a cada categoria.
+Based on these results, it is concluded that the variable "Saldo_Invest + Saldo_CC" plays a significant role in predicting customer default. Therefore, when developing strategies to approve more contracts with the lowest possible default, it is important to carefully consider and evaluate this variable, taking into account the characteristics and risks associated with each category.
 
-## 6 - Recomendações e Plano de Ação sugerido. 
+## 6 - Recommendations and suggested Action Plan.
 
-Com base nos resultados da análise, foram apresentadas recomendações específicas para a empresa com o objetivo de aumentar o número de contratos sem aumentar a inadimplência, conforme o Plano de Ação abaixo, também localizado na aba Plano de Ação da Planilha Base_Inadimplencia V5.xlsx.
+Based on the results of the analysis, specific recommendations were presented for the company in order to increase the number of contracts without increasing defaults, according to the Action Plan below, also located on the Action Plan tab of the Spreadsheet Base_Delinquency V5.xlsx.
 ![image](https://github.com/Mrogerioventura/Analise_Inadimplencia_Fintech/assets/67667695/c5031ce9-0edb-4671-9073-0ce397d8d512)
 
-## 7 - Limitações e recomendações para estudos futuros. 
-Sabemos como é importante reconhecer que o trabalho não termina com a análise de dados, e é primordial identificar oportunidades para melhorias futuras.
+## 7 - Limitations and recommendations for future studies.
+We know how important it is to recognize that the job doesn't end with data analysis, and identifying opportunities for future improvement is paramount.
 
-Alguns pontos observados que devem ser levados em conta:
+Some points that should be taken into account:
 
-• Tamanho da amostra: No momento era o que possuíamos para o desenvolvimento do trabalho, mas um estudo futuro poderá ser realizado para verificação do quanto a amostra de 1.000 clientes é representativa o suficiente para extrapolar os resultados para toda a população.
+• Sample size: At the moment it was what we had for the development of the work, but a future study can be carried out to verify how much the sample of 1,000 clients is representative enough to extrapolate the results to the entire population.
 
-• Outras variáveis: Assim como o quantitativo da amostra, poder-se-á identificar variáveis adicionais que podem ser relevantes para uma nova análise e que não foram incluídas nos dados fornecidos. Sugerimos uma reunião como cada time de negócio, que conjuntamente poderão considerar essas novas variáveis;
+• Other variables: As well as the sample quantity, additional variables may be identified that may be relevant for a new analysis and that were not included in the data provided. We suggest a meeting with each business team, which together can consider these new variables;
 
-• Melhoria contínua: A análise de dados é um processo contínuo em que os resultados obtidos devem ser monitorados e revisados regularmente para garantir a eficácia das estratégias implementadas.
+• Continuous improvement: Data analysis is a continuous process in which the results obtained must be monitored and reviewed regularly to ensure the effectiveness of the implemented strategies.
 
-Esses tópicos adicionais fornecerão um contexto mais completo e aprofundado para o relatório, permitindo que a empresa compreenda melhor os resultados da análise de dados e tome decisões informadas para melhorar suas políticas e processos relacionados à concessão de empréstimos.
+These additional topics will provide a more complete and in-depth context for the report, allowing the company to better understand the data analysis results and make informed decisions to improve its policies and processes related to lending.
 
 
 
